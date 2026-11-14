@@ -1,0 +1,13 @@
+#ifndef HAL_STATUS_H
+#define HAL_STATUS_H
+
+typedef enum {
+    DRV_STATUS_OK = 0,
+    DRV_STATUS_ERROR,
+    DRV_STATUS_BUSY,
+    DRV_STATUS_TIMEOUT,
+    DRV_STATUS_INVALID_PARAM,
+    DRV_STATUS_NOT_READY
+} DRV_Status_t;
+
+#endif
