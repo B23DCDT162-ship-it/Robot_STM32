@@ -1,0 +1,33 @@
+
+# Build output
+build/
+Debug/
+Release/
+Objects/
+Listings/
+
+# Compiled files
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.axf
+*.map
+*.lst
+
+# Keil personal settings
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
